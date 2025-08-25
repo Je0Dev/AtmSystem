@@ -1,5 +1,6 @@
- ATM System Simulation in C
-Welcome to the ATM System Simulation, a comprehensive console-based application built entirely in C. This project simulates the core functionalities of an Automated Teller Machine, managing customer data, multiple accounts, and ensuring all information is saved and loaded from local files.
+🏧 ATM System Simulation in C
+Welcome to the ATM System Simulation, a comprehensive console-based application built entirely in C. 
+This project simulates the core functionalities of an Automated Teller Machine, managing customer data, multiple accounts, and ensuring all information is saved and loaded from local files.
 
 ✨ Key Features
 🔐 Secure Customer Authentication: Robust login system requiring a unique account number and a 4-digit PIN.
