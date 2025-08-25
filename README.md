@@ -1,48 +1,47 @@
-ATM System Simulation in C
-This project is a console-based application that simulates the basic functionalities of an Automated Teller Machine (ATM). It is written entirely in C and contained within a single source file. The system manages customer data, supports multiple bank accounts per customer, and persists all information to local data files.
+ ATM System Simulation in C
+Welcome to the ATM System Simulation, a comprehensive console-based application built entirely in C. This project simulates the core functionalities of an Automated Teller Machine, managing customer data, multiple accounts, and ensuring all information is saved and loaded from local files.
 
-🌟 Features
-Customer Authentication: Secure login for customers using an account number and a 4-digit PIN.
+✨ Key Features
+🔐 Secure Customer Authentication: Robust login system requiring a unique account number and a 4-digit PIN.
 
-Core Banking Operations:
+🏦 Core Banking Operations:
 
-Check account balance.
+💰 Check Balance: Instantly view your current account balance.
 
-Withdraw funds, with checks for sufficient balance.
+💸 Withdraw Funds: Withdraw cash with built-in checks for sufficient funds.
 
-Deposit funds.
+📥 Deposit Funds: Easily deposit money into your account.
 
-Account Management:
+👥 Advanced Account Management:
 
-Customers can create new bank accounts.
+➕ Create New Accounts: Customers can open new bank accounts on the fly.
 
-Customers can delete existing accounts (as long as it's not their only one).
+➖ Delete Accounts: Remove old accounts (as long as it's not the only one).
 
-Support for switching between multiple accounts.
+↔️ Switch Accounts: Seamlessly switch between multiple accounts.
 
-PIN Management: Ability for users to change their PIN after verifying their old one.
+🛡️ PIN Management: Change your PIN securely after verifying your current one.
 
-Data Persistence: All customer and account data is saved to customers.dat and accounts.dat upon exiting the program and loaded back upon startup.
+💾 Data Persistence: All customer and account data is automatically saved to customers.dat and accounts.dat when you exit and reloaded on the next launch.
 
-Administrator Mode: A special login for an administrator to view a list of all customers and their associated accounts.
+🕵️ Administrator Mode: A special login for an administrator to view a complete list of all customers and their associated accounts.
 
-🚀 How to Compile and Run
-This project is self-contained in a single C file and has no external dependencies, making it easy to compile.
+🚀 Getting Started
+This project is built to be simple and has no external dependencies. Here’s how you can get it up and running.
 
 1. Compilation
-You will need a C compiler like gcc. Open your terminal or command prompt, navigate to the directory containing the source file, and run the following command:
+You will need a C compiler like gcc. Open your terminal, navigate to the project directory, and run the following command to compile all the source files:
 
 Bash
 
-# Assuming you have renamed the file to atm.c
-gcc main.c system.c ui.c customer.c account.c utils.c -o main.exe 
+gcc main.c system.c ui.c customer.c account.c utils.c -o atm.exe
 2. Running the Program
-Once compiled, you can run the application with this command:
+Once compiled, you can launch the application with this simple command:
 
 Bash
 
-./main.exe
-(On Windows, you can just type main.exe)
+./atm.exe
+(On Windows, you can just type atm.exe)
 
 📋 How to Use
 Customer Login
@@ -50,15 +49,15 @@ When prompted, enter any of your bank account numbers.
 
 Enter your 4-digit PIN associated with that account.
 
-Upon successful login, you will be presented with the main menu to perform transactions.
+You're in! You will be directed to the main menu to perform transactions.
 
 Administrator Login
-The program has a hardcoded administrator account for viewing all system data.
+The system includes a hardcoded administrator account for system-wide oversight.
 
 At the login screen, enter the account number: 1
 
-When asked for the administrator password, enter: ece23044Project3
+Enter the administrator password: ece23044Project3
 
-When asked for the administrator PIN, enter: 1111
+Enter the administrator PIN: 1111
 
-You will then access the administrator menu.
+You will now have access to the administrator menu.
