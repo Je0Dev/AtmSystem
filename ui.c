@@ -28,7 +28,7 @@ bool login_screen() {
         #undef ADMIN_PASSWORD_MAXLEN
         clear_input_buffer();
 
-        if (strcmp(admin_password, "ece23044Project3") == 0) {
+        if (strcmp(admin_password, "admin!!!$##0?17") == 0) {
             printf("Administrator password confirmed!\\n");
             printf("Enter administrator PIN (%d digits): ", ACTUAL_PIN_DIGITS);
             if (scanf("%" MACRO_TO_STRING(ACTUAL_PIN_DIGITS) "s", admin_pin) != 1) {
