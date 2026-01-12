@@ -5,16 +5,16 @@ This project simulates the core functionalities of an Automated Teller Machine, 
 
 ✨ Key Features
 ---
-🔐 Secure Customer Authentication: Robust login system requiring a unique account number and a 4-digit PIN.
-💰 Check Balance: Instantly view your current account balance.
-💸 Withdraw Funds: Withdraw cash with built-in checks for sufficient funds.
-📥 Deposit Funds: Easily deposit money into your account.
-➕ Create New Accounts: Customers can open new bank accounts on the fly.
-➖ Delete Accounts: Remove old accounts (as long as it's not the only one).
-↔️ Switch Accounts: Seamlessly switch between multiple accounts.
-🛡️ PIN Management: Change your PIN securely after verifying your current one.
-💾 Data Persistence: All customer and account data is automatically saved to customers.dat and accounts.dat when you exit and reloaded on the next launch.
-🕵️ Administrator Mode: A special login for an administrator to view a complete list of all customers and their associated accounts.
+- 🔐 Secure Customer Authentication: Robust login system requiring a unique account number and a 4-digit PIN.
+- 💰 Check Balance: Instantly view your current account balance.
+- 💸 Withdraw Funds: Withdraw cash with built-in checks for sufficient funds.
+- 📥 Deposit Funds: Easily deposit money into your account.
+- ➕ Create New Accounts: Customers can open new bank accounts on the fly.
+- ➖ Delete Accounts: Remove old accounts (as long as it's not the only one).
+- ↔️ Switch Accounts: Seamlessly switch between multiple accounts.
+- 🛡️ PIN Management: Change your PIN securely after verifying your current one.
+- 💾 Data Persistence: All customer and account data is automatically saved to customers.dat and accounts.dat when you exit and reloaded on the next launch.
+- 🕵️ Administrator Mode: A special login for an administrator to view a complete list of all customers and their associated accounts.
 - At the login screen, enter the account number: 1
 - Enter the administrator password: admin!!!$##0?17
 - Enter the administrator PIN: 1111
